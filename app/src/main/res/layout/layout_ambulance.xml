@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="370dp"
+    android:layout_height="220dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="@dimen/margin_medium_3"
+    android:layout_marginLeft="@dimen/margin_medium"
+    android:layout_marginRight="@dimen/margin_medium"
+    android:layout_marginTop="@dimen/margin_medium"
+    app:cardCornerRadius="@dimen/margin_medium_3"
+    app:cardElevation="@dimen/margin_medium">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:fontFamily="@font/myanmar"
+            android:text="မိုးစေတနာ ပရဟိတအသင်း"
+            android:textColor="@color/textColorGray900"
+            android:textSize="@dimen/text_regular_2x"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvTownship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ရန်ကင်းမြို့နယ်"
+            app:layout_constraintStart_toStartOf="@+id/tvTitle"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="140dp"
+            android:layout_height="190dp"
+            android:layout_marginStart="@dimen/margin_small"
+            android:src="@drawable/sample_logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            app:layout_constraintStart_toStartOf="@+id/tvTownship"
+            app:layout_constraintTop_toBottomOf="@+id/tvTownship"
+            app:srcCompat="@drawable/ic_clock" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            app:layout_constraintStart_toStartOf="@+id/tvTownship"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:srcCompat="@drawable/ic_dollar" />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_small"
+            android:fontFamily="@font/myanmar"
+            android:text="သွေး/လူနာတင်ယာဉ်၂၄ နာရီကူညီသည်"
+            android:textColor="@color/textColorGray800"
+            android:textSize="@dimen/text_smaller"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+        <TextView
+            android:id="@+id/tvFee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_small"
+            android:fontFamily="@font/myanmar"
+            android:text="အခမဲ့"
+            android:textColor="@color/textColorGray800"
+            android:textSize="@dimen/text_smaller"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            app:layout_constraintStart_toStartOf="@+id/tvTownship"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:srcCompat="@drawable/ic_red_cross" />
+
+        <TextView
+            android:id="@+id/tvService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_small"
+            android:fontFamily="@font/geeza_pro"
+            android:text="Emergency rescue service"
+            android:textColor="@color/textColorGray800"
+            android:textSize="@dimen/text_smaller"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            app:layout_constraintStart_toStartOf="@+id/tvTownship"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            app:srcCompat="@drawable/ic_house" />
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_small"
+            android:fontFamily="@font/myanmar"
+            android:text="အမှတ်(၃၂၈)၊၁၁ရပ်ကွက်၊ စိုက်ပျိုးရေးပဒေသာလမ်း၊ရန်ကင်းမြို့နယ်"
+            android:textColor="@color/textColorGray800"
+            android:textSize="@dimen/text_smaller"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView6"
+            app:layout_constraintTop_toTopOf="@+id/imageView6" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCall"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="@dimen/margin_large"
+            android:layout_marginEnd="@dimen/margin_large"
+            android:backgroundTint="#79bf7b"
+            android:fontFamily="@font/geeza_pro"
+            android:text="Call Now"
+            app:cornerRadius="@dimen/margin_medium_2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_smaller"
+            android:textStyle="bold"
+            app:icon="@drawable/ic_phone_call"
+            app:iconGravity="textStart"
+            app:iconPadding="@dimen/margin_medium"
+            app:iconTint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/imageView6"
+            app:layout_constraintTop_toBottomOf="@+id/tvAddress" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

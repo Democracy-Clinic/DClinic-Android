@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DemocracyClinic">
         <activity android:name=".activities.MainActivity">
+
+        </activity>
+        <activity android:name=".activities.AmbulanceActivity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
