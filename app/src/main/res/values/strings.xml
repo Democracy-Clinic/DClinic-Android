@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Democracy Clinic</string>
+    <string name="location_rationale">"This app requires location permission to show the clinic locations on the map "</string>
 </resources>

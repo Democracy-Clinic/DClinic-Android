@@ -1,4 +1,6 @@
 package com.dclinic.patient.viewmodels;
 
-abstract class BaseViewModel {
+import androidx.lifecycle.ViewModel;
+
+abstract class BaseViewModel extends ViewModel {
 }
