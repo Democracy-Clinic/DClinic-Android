@@ -2,7 +2,7 @@ package com.dclinic.patient;
 
 import com.google.gson.annotations.SerializedName;
 
-public class DataItem{
+public class AmbulanceDataItem {
 
 	@SerializedName("address")
 	private String address;

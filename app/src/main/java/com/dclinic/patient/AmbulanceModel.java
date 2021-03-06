@@ -6,9 +6,9 @@ import com.google.gson.annotations.SerializedName;
 public class AmbulanceModel{
 
 	@SerializedName("data")
-	private List<DataItem> data;
+	private List<AmbulanceDataItem> data;
 
-	public List<DataItem> getData(){
+	public List<AmbulanceDataItem> getData(){
 		return data;
 	}
 }
